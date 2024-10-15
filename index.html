@@ -7,14 +7,44 @@
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="index.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>  
     <link rel="stylesheet" type="text/css" href="slick-theme.css"/>
     
 <link rel="stylesheet" type="text/css" href="slick.css"/>
      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700">
 </head>
-<body style="background-color: rgba(0, 0, 0, 0.959);" >
+<body style="background-color: rgba(0, 0, 0, 0.959);" id="particles-js">
+
+
     
-<section>
+<section></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+
+
+
+
+
+<!-- particles.js lib (JavaScript CodePen settings): https://github.com/VincentGarreau/particles.js -->
     <header>
         <nav class="navbar navbar-expand-lg shadow-sm ">
             <div class="container">
@@ -61,38 +91,40 @@
         <div class="container-fluid">
             <div class="container">
                 <div class="row row-cols-xs-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2">
-                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12  border-danger border-2 p-2 align-items-center justify-content-center d-flex ">
-                        <div class="  border-2 position-relative">
-                           <div class="vedio-about"> 
-                            <video style="height: 300px; width: 100%;" class="position-relative shadow rounded-pill" muted  autoplay loop >
-                            <source src="img/3130284-uhd_3840_2160_30fps.mp4" type="video/mp4">
-                            <source src="movie.ogg" type="video/ogg">
-                        
-                          </video>
-                        </div>
+                     <video style="height: 570px; width: 100%;" class="position-relative" style="height: 600px; width: 600px;"  muted  autoplay loop >
+                        <source src="img/3130284-uhd_3840_2160_30fps.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                    
+                      </video> 
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12 position-absolute border-danger border-2 p-2 align-items-center position-about justify-content-center d-flex " style="bottom: 100px;">
+                        <div class="  border-2 justify-content-center d-flex">
+                            
+                         
                            
-                              <div class="detail-about position-absolute position-about  px-5 py-3" style="top: 20px; left: 50px;">
+                              <div class="detail-about  " style="top: 100px; left: 50px;">
                                 <p class=" text-white  fs-1 h1  ">Hii,</p>
-                                <p class=" text-white fs-1 h1 ">I'm Dev</p>
-                                <div class="typewriter mt-3 h3 shadow1 ">I'm Full Stack Developer</div> <button class="button1" id="btn">Hire Me !</button>
+                                <p class=" text-white fs-1 h1 ">I'm Dev.</p>
+                                <p><div class="typewriter mt-3 h3 shadow1 ">I'm Full Stack Developer</div> </p>
+                                <p><button class="button1" id="btn">Hire Me !</button></p>
+                                
                                
                               </div>
                            
                         </div>
 
                      
-                           
+                      
                     
                         
                     </div>
                     
-                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12 border-danger border-2 p-2">
-                        <div class=" border-primary border-2">
-                            <p class="text-center">
-                                <img src="img/myphoto.jpeg" class="img-fluid rounded rounded-circle shadow" alt="">
-                            </p>
-                        </div>
-                    </div>
+                     <div class="col-lg-6 col-md-12 col-sm-12 position-absolute   col-xs-12 col-12 border-danger border-2 p-2" style="right: 50px;">
+                            <div class=" border-primary border-2 position-relative ">
+                                <p class="text-center">
+                                    <img src="img/myphoto.jpeg" class="img-fluid rounded rounded-circle shadow " style="height: 500px; width: 500px;" alt="">
+                                </p>
+                            </div>
+                        </div> 
                
                   
                
@@ -101,97 +133,267 @@
     </section>
 
 
+
+
+
+
     <section>
-        <div class="container my-5  border border-primary border-4">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
             <div class="slider responsive">
-				<div>
-                    <div class="slider-div d-flex align-items-center justify-content-center">
-                        <div class="details justify-content-center   align-items-center d-flex">
-                            <div class="details1 box-shadow1">
-                                <img class=" img-fluid" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzlweDY4ZTc4NTVndHdpNGZrNG50eW5sMW1hdHFrdHd4cG83YmowZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/coxQHKASG60HrHtvkt/giphy.gif" class="img-fluid my-3 rounded" alt="">
-                                <p class="text-white  my-2 fs-3 text-center">Python</p>
-                         
-                            </div>
-                              </div>   
+              <div>
+                <div class="slider-content  border-danger border-2 p-2 d-flex justify-content-center align-items-center" style="height: 300px;">
+                    <div class=" border-warning  border-2 p-2">
+                      <div class=" border-primary  border-2">
+                        <img src="vedio/Css (1).gif" class="img-fluid " alt="">
+                        <a href="" class="l-hover"><p class="text-center text-effect fs-1 text-white fw-bold slider-shadow slider-text-shadow">CSS</p></a>
+                      </div>
                     </div>
-				
-				</div>
-				<div>
-                    <div class="slider-div d-flex align-items-center justify-content-center">
-                        <div class="details  box-shadow1">
-                            <img class=" img-fluid" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzlweDY4ZTc4NTVndHdpNGZrNG50eW5sMW1hdHFrdHd4cG83YmowZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/coxQHKASG60HrHtvkt/giphy.gif" class="img-fluid my-3 rounded" alt="">
-                            <p class="text-white  my-2 fs-3 text-center">Python</p>
-                        </div>   
+                </div>
+              </div>
+              <div>
+                <div class="slider-content  border-danger border-2 p-2 d-flex justify-content-center align-items-center" style="height: 300px;">
+                  <div class=" border-warning border-2 p-2">
+                    <div class=" border-primary border-2">
+                      <img src="vedio/Html.gif" class="img-fluid" alt="">
+                      <a href=""><p class="text-center text-effect fs-1 text-white fw-bold slider-shadow slider-text-shadow">HTML</p></a>
                     </div>
-					
-				</div>
-				<div>
-                    <div class="slider-div d-flex align-items-center justify-content-center">
-                        <div class="details">
-                            <h3>3</h3>
-                        </div>   
+                  </div>
+              </div>  
+              </div>
+              <div>
+                <div class="slider-content  border-danger border-2 p-2 d-flex justify-content-center align-items-center" style="height: 300px;">
+                  <div class=" border-warning border-2 p-2">
+                    <div class=" border-primary border-2">
+                      <img src="vedio/Java.gif" class="img-fluid" alt="">
+                      <a href=""><p class="text-center text-effect fs-1 text-white fw-bold slider-shadow slider-text-shadow">JAVA</p></a>
                     </div>
-				</div>
-				<div>
-                    <div class="slider-div d-flex align-items-center justify-content-center">
-                        <div class="details">
-                            <h3>4</h3>
-                        </div>   
+                  </div>
+              </div>
+              </div>
+              <div>
+                <div class="slider-content  border-danger border-2 p-2 d-flex justify-content-center align-items-center" style="height: 300px;">
+                  <div class=" border-warning border-2 p-2">
+                    <div class=" border-primary border-2">
+                      <img src="vedio/Python.gif" class="img-fluid" alt="">
+                      <a href=""><p class="text-center text-effect fs-1 text-white fw-bold slider-shadow slider-text-shadow">PYTHON</p></a>
                     </div>
-				</div>
-				<div>
-                    <div class="slider-div d-flex align-items-center justify-content-center">
-                        <div class="details">
-                            <h3>5</h3>
-                        </div>   
+                  </div>
+              </div>
+              </div>
+              <div>
+                <div class="slider-content  border-danger border-2 p-2 d-flex justify-content-center align-items-center" style="height: 300px;">
+                  <div class=" border-warning border-2 p-2">
+                    <div class=" border-primary border-2">
+                      <img src="vedio/Css (1).gif" class="img-fluid" alt="">
+                      <a href=""><p class="text-center text-effect fs-1 text-white fw-bold slider-shadow slider-text-shadow">CSS</p></a>
                     </div>
-				</div>
-				<div>
-                    <div class="slider-div d-flex align-items-center justify-content-center">
-                        <div class="details">
-                            <h3>6</h3>
-                        </div>   
+                  </div>
+              </div>
+              </div>
+              <div>
+                <div class="slider-content  border-danger border-2 p-2 d-flex justify-content-center align-items-center" style="height: 300px;">
+                  <div class=" border-warning border-2 p-2">
+                    <div class=" border-primary border-2">
+                      <img src="vedio/Html.gif" class="img-fluid" alt="">
+                      <a href=""><p class="text-center text-effect fs-1 text-white fw-bold slider-shadow slider-text-shadow">HTML</p></a>
                     </div>
-				</div>
-				<div>
-                    <div class="slider-div d-flex align-items-center justify-content-center">
-                        <div class="details">
-                            <h3>7</h3>
-                        </div>   
+                  </div>
+              </div>
+              </div>
+              <div>
+                <div class="slider-content  border-danger border-2 p-2 d-flex justify-content-center align-items-center" style="height: 300px;">
+                  <div class=" border-warning border-2 p-2">
+                    <div class=" border-primary border-2">
+                      <img src="vedio/Java.gif" class="img-fluid" alt="">
+                      <a href=""><p class="text-center text-effect fs-1 text-white fw-bold slider-shadow slider-text-shadow">JAVA</p></a>
                     </div>
-				</div>
-				<div>
-                    <div class="slider-div d-flex align-items-center justify-content-center">
-                        <div class="details">
-                            <h3>8</h3>
-                        </div>   
+                  </div>
+              </div>
+              </div>
+              <div>
+                <div class="slider-content  border-danger border-2 p-2 d-flex justify-content-center align-items-center" style="height: 300px;">
+                  <div class=" border-warning border-2 p-2">
+                    <div class=" border-primary border-2">
+                      <img src="vedio/Python.gif" class="img-fluid" alt="">
+                     <a href=""> <p class="text-center text-effect fs-1 text-white fw-bold slider-shadow slider-text-shadow">PYTHON</p></a>
                     </div>
-				</div>
-			</div>
+                  </div>
+              </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
 
 
 
-    <section>
+
+ <section>
+    <div class="container-fluid my-5">
+        <h2 class="text-center text-danger fw-bold">Projects</h2>
+        <div class="row my-3">
+            <div class="col-6  border-primary border-2 p-4">
+                <div class=" border-danger border-1 rounded ">
+                    <a href="file:///C:/Users/Dev%20Mandani/Desktop/css%20project/product.html" class="project1" target="_blank"><video style="width: 100%;" class="rounded "  muted  autoplay loop >
+                        <source src="vedio/project 1.mp4" class="shadow-other"   type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                    
+                      </video></a>
+                      <p class="text-warning fs-5 fw-bold p-1">Css Project </p>
+                      <ul class="text-white">
+                        <li>This Project Is Made With The Help Of HTML & CSS.</li>
+                        <li>This Project Is Also Helping To Solve Your HTML And CSS Problems. </li>
+                      </ul>
+                      <p class="text-center"><button class="btn third">Visit Project</button>
+                        <button class="btn third"><i class="fa-brands fa-github"></i> Git Hub</button></p>
+                      
+                     
+                     
+                </div>
+            </div>
+            <div class="col-6  border-primary border-2 p-4">
+                <div class=" border-danger border-1 rounded">
+                    <video style="width: 100%;" class="rounded "  muted  autoplay loop >
+                        <source src="vedio/project 2.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                    
+                      </video>
+                      <p class="text-warning fs-5 fw-bold p-1">HTML Project </p>
+                      <ul class="text-white">
+                        <li>This Project Is Made With The Help Of HTML.</li>
+                        <li>With The Help Of This Project We Can Also Clear HTML.</li>
+                      </ul>
+                      <p class="text-center"><button class="btn third">Visit Project</button>
+                        <button class="btn third"><i class="fa-brands fa-github"></i> Git Hub</button></p>
+                      
+                </div>
+            </div>
+            <div class="col-6  border-primary border-2 p-4">
+                <div class=" border-danger border-1 ">
+                  <video style="width: 100%;" class="rounded "  muted  autoplay loop >
+                    <source src="vedio/furniture.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                
+                  </video>
+                  <p class="text-warning fs-5 fw-bold p-1">HTML Project </p>
+                  <ul class="text-white">
+                    <li>This Project Is Made With The Help Of HTML And CSS.</li>
+                    <li>With The Help Of This Project We Can Also Clear HTML And CSS.</li>
+                  </ul>
+                  <p class="text-center"><button class="btn third">Visit Project</button>
+                    <button class="btn third"><i class="fa-brands fa-github"></i> Git Hub</button></p>
+                  
+                </div>
+            </div>
+            <div class="col-6  border-primary border-2 p-4">
+                <div class=" border-danger border-1 ">
+                  <video style="width: 100%;" class="rounded "  muted  autoplay loop >
+                    <source src="vedio/Login Form.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                
+                  </video>
+                  <p class="text-warning fs-5 fw-bold p-1">HTML Project </p>
+                  <ul class="text-white">
+                    <li>This Project Is Made With The Help Of HTML.</li>
+                    <li>With The Help Of This Project We Can Also Clear HTML.</li>
+                  </ul>
+                  <p class="text-center"><button class="btn third">Visit Project</button>
+                    <button class="btn third"><i class="fa-brands fa-github"></i> Git Hub</button></p>
+                  
+                </div>
+            </div>
+        
+           
+        </div>
+    </div>
+ </section>
+
+
+
+
+
+
+
+
+
+
+
+ <section>
+    <div class="container-fluid">
         <div class="container">
             <div class="row">
-                .col-lg-
+                <div class="col-lg-6 p-4 col-md-12 col-sm-12 col-xs-12 col-12 border-primary border-2">
+                    <div class=" border-danger border-2 ">
+                        <iframe class="shadow-other" style="width: 100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3705.8729525129074!2d72.13886067382113!3d21.746450562745135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395f5100507f9379%3A0x999dfb8e22d5ef4b!2sRed%20%26%20White%20Multimedia%20Education%20-%20Best%20IT%20%26%20Designing%20Institute%20In%20Bhavnagar!5e0!3m2!1sen!2sin!4v1728631511622!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6 p-4 col-md-12 col-sm-12 col-xs-12 col-12   border-primary border-2">
+                    <div class=" border-danger  border-2 p-4  ">
+                        <div class=" border-primary border-2 shadow-other ">
+                            
+                            <p> <p class="text-white text-center h2" style="text-decoration: underline;">About Full Stack Devlopment</p>
+                            <p><div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    About Full Stack Devlopment
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    Why Should I Started Full Stack Devlopment Course?
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                     In Font-end What Will You Learn?
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+                                       In Back-end What Will You Learn?
+                                      </button>
+                                    </h2>
+                                    <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                    </div>
+                                  </div>
+                              </div></p>
+                              <a href="" class="btn btn-outline-warning " style="width: 100%;">Join Us</a>
+                           </p>
+                            </div>
+                       
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
-
-
-
-
-
+    </div>
+ </section>
 
     <footer>
         <div class="container-fluid ">
             <div class="row ">
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 col-12">
-                    <div class=" border-primary border-2 p-2 box-shadow1">
+                    <div class=" border-primary border-2 p-2 box-shadow1" style="height: 280px;">
                         <ul class="nav-link" style="list-style: none;">
                             <li class="nav-item">
                                 <img class="img-fluid br" src="img/Tres logos unifican todo el sistema de transportes de Budapest — Brandemia.jpg" alt="" style="width: 30%;" class="rounded">
@@ -208,7 +410,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 col-12">
-                    <div class=" border-primary border-2 p-2 box-shadow1">
+                    <div class=" border-primary border-2 p-2 box-shadow1" style="height: 280px;">
                         <ul class="" style="list-style: none; text-decoration: none;">
                             <li class="nav-link lh-lg">
                                 <a href="" class="nav-items text-white fs-5 fw-bold" style="text-decoration: none;">Download</a>
@@ -239,7 +441,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 col-12">
-                    <div class=" border-primary border-2 p-2 box-shadow1">
+                    <div class=" border-primary border-2 p-2 box-shadow1" style="height: 280px;">
                         <ul class="" style="list-style: none; text-decoration: none;">
                             <li class="nav-link lh-lg">
                                 <a href="" class="nav-items text-white fs-5 fw-bold" style="text-decoration: none;">Products</a>
@@ -269,7 +471,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 col-12">
-                    <div class=" border-primary border-2 p-2 box-shadow1">
+                    <div class=" border-primary border-2 p-2 box-shadow1" style="height: 280px;">
                         <p class="text-white fw-bold fs-5">Get in Touch</p>
                         <p class="d-flex gap-3 text-white">
                           <a href="" class="text-white">  <i class="fa-brands fa-facebook" style="font-size: 25px;"></i></a>  
@@ -302,15 +504,24 @@
         </div>
     </section>
 
+
+
+<script src="particles.js"></script>
+
      
 
 
     <script src="bootstrap.bundle.min.js"></script>
     <script src="jquery-3.7.1.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
     <script>
         
 
     </script>
+
+
 
 
       
@@ -322,19 +533,46 @@
 
 
 
+   
+</script>
+<script>
+/* ---- stats.js config ---- */
+
+var count_particles, stats, update;
+stats = new Stats;
+stats.setMode(0);
+stats.domElement.style.position = 'absolute';
+stats.domElement.style.left = '0px';
+stats.domElement.style.top = '0px';
+document.body.appendChild(stats.domElement);
+count_particles = document.querySelector('.js-count-particles');
+update = function() {
+  stats.begin();
+  stats.end();
+  if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+    count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+  }
+  requestAnimationFrame(update);
+};
+requestAnimationFrame(update);
+</script>
+</script>
     </script>
     <script>$('.responsive').slick({
-        dots: true,
+        dots: false,
         infinite: false,
         speed: 300,
+        autoplay:true,
+        autoplaytiming:1000,
+        autoplayduration:1000,
         slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToScroll: 1,
         responsive: [
           {
             breakpoint: 1024,
             settings: {
               slidesToShow: 3,
-              slidesToScroll: 3,
+              slidesToScroll: 1,
               infinite: true,
               dots: true
             }
@@ -343,7 +581,7 @@
             breakpoint: 600,
             settings: {
               slidesToShow: 2,
-              slidesToScroll: 2
+              slidesToScroll: 1
             }
           },
           {
@@ -358,6 +596,10 @@
           // instead of a settings object
         ]
       });</script>
+
+
+
+</script>
       
 </body>
 </html>
