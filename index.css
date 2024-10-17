@@ -343,3 +343,165 @@ box-shadow: 0px 0px 28px 0px rgba(46,84,255,0.9);
     background-position: 500%;
   }
 }
+
+.fadeInBottom{
+  animation: fadeInBottom 1s  ease-in-out infinite alternate;
+  /* animation-delay: 4s; */
+  border: 1px solid red;
+  border-radius: 50%;
+  padding: 20px;
+
+}
+
+
+@keyframes fadeInBottom {
+  from{
+      transform: scale(0.8);
+  }
+  to{
+      transform: scale(1.1);
+  }
+}
+
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  width: 100%;
+  height: 100%;
+
+}
+
+.router{
+  width: 590px;
+  aspect-ratio: 0.5/0.5;
+  position: relative;
+  border-radius: 50%;
+  animation: routering 10s linear infinite;
+  box-shadow: 1px 1px 100px rgba(67, 218, 205, 0.658);
+  background-color: gray;
+}
+
+@keyframes routering {
+  from{
+    rotate: 0deg;
+  }
+  to{
+    rotate: 360deg;
+  }
+}
+
+.rout{
+  width: 100px;
+  aspect-ratio: 1/1;
+  position: absolute;
+  border-radius: 50%;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: routing 10s  linear infinite;
+  background-color: white;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.rout{
+  padding: 1px;
+  box-shadow: 1px 1px 15px 5px rgba(17, 214, 221, 0.658);
+
+}
+.rout > img{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+
+@keyframes routing{
+  from{
+      rotate: 360deg;
+  }
+  to{
+      rotate: 0deg;
+  }
+}
+/* 
+@keyframes routering{
+  0%{
+      rotate: 0deg;
+      scale: 0.5;
+      opacity: 0.3;
+  }
+  50%{
+      rotate: 180deg;
+      scale: 1;
+      opacity: 1;
+  }
+  100%{
+      rotate: 360deg;
+      scale: 0.5;
+      opacity: 0;
+  }
+} */
+
+.rout1{
+  top: 84px;
+  left: 5px;
+}
+.rout2{
+  top: 63px;
+  right: 9px;
+
+}
+
+.rout3{
+  bottom: 43px;
+  left: 16px;
+}
+
+.rout4{
+  bottom: 34px;
+  right: 58px;
+}
+
+
+.rout5{
+  top: 48%;
+  right: 92%;
+
+}
+.rout6{
+  top: 48%;
+  left: 92%;
+}
+
+.rout7{
+  top: -7%;
+  right: 46%;
+}
+.rout8{
+  bottom: -8%;
+  right: 45%;
+}
+
+
+
+.slider-image{
+  animation: sliderotate 10s linear infinite;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  
+}
+
+@keyframes sliderotate {
+  from{
+    rotate: 360deg;
+}
+to{
+    rotate: 0deg;
+}
+}
+
+
+
